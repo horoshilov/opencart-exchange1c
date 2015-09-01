@@ -1,6 +1,7 @@
 <?php
 // Heading
 $_['heading_title']		= 'Обмен данными с 1C v8.x';
+$_['text_edit']       = 'Редактирование настроек модуля';
 
 // Text
 $_['text_module']		= 'Модули';

@@ -1,6 +1,7 @@
 <?php
 // Heading
 $_['heading_title']	= 'Exchange 1C v8.x';
+$_['text_edit']       = 'Settings Eidt';
 
 // Text
 $_['text_module']		= 'Modules';
