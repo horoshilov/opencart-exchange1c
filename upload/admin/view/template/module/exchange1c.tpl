@@ -265,10 +265,6 @@
 </div>
 </div>
 
-<script type="text/javascript"><!--
-    $('#language a:first').tab('show');
-    $('#option a:first').tab('show');
-    //--></script>
 
 <script type="text/javascript" src="view/javascript/jquery/ajaxupload.js"></script> 
 <script type="text/javascript"><!--

@@ -16,7 +16,7 @@ class ControllerModuleExchange1c extends Controller {
 			$this->request->post['exchange1c_order_date'] = $this->config->get('exchange1c_order_date');
 			$this->model_setting_setting->editSetting('exchange1c', $this->request->post);
 			$this->session->data['success'] = $this->language->get('text_success');
-			$this->redirect($this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL'));
+			$this->response->redirect($this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL'));
 		}
 
 		$data['version'] = 'Version 1.6.0';
